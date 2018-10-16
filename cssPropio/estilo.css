@@ -1,0 +1,99 @@
+body{
+    background: url("../video/lol1-1-.gif") no-repeat;
+    background-size: cover;
+    animation-name: cambio1;
+    animation-duration: 10s;
+}
+@keyframes cambio1{
+    0%{
+        background: url("../video/lol-1-.gif") no-repeat;
+        background-size: cover;
+    }
+    100%{
+        background: url("../video/lol-1-.gif") no-repeat;
+        background-size: cover;
+    }
+}
+.navbar{
+    animation-name: cambio;
+    animation-duration: 20s;
+    font-size: x-large;
+    font-weight: bold;
+    color: rgb(240, 75, 75);
+    position: relative;
+}
+@keyframes cambio{
+    0%{
+       color: rgba(255, 255, 255, 0);
+       position: absolute;
+       top: -200px;
+    }
+    50%{
+        top: 0;
+    }
+    100%{
+        color: rgba(0, 0, 0, 1);
+        z-index: 1;
+        
+    }
+}
+
+table{
+    margin: auto;
+    border: solid 3px black;
+    width: 90%;
+    overflow: auto;
+    animation-name: cambio2;
+    animation-duration: 15s;
+}
+@keyframes cambio2{
+    0%{
+        opacity: 0;
+    }
+    95%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+table tr td{
+    background-color: #333;
+    color: aliceblue;
+    border: solid 3px black;
+    height: 100px;
+}
+table tr td span{
+    float: left;
+    color: aliceblue;
+}
+table tr th{
+    background-color: #333;
+    color: aliceblue;
+    border: solid 3px black;
+}
+table tr td img{
+    width: 25px;
+    margin: auto;
+}
+table tr td a ul{
+    list-style-type: none;
+    list-style-position: outside;
+    padding-right: 10px;
+    margin: 0;
+    text-align: center;
+}
+.libre{
+    text-align: center;
+}
+audio{
+    float: right;
+    color: #222;
+    opacity: 0.3;
+    height: 50px;
+}
+@media (max-width:767px) {
+    audio{
+    display: none;
+}
+}

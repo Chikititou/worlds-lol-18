@@ -1,0 +1,68 @@
+body{
+    background: url("../video/lol1-1-.gif") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.navbar{
+    font-size: x-large;
+    font-weight: bold;
+    position: relative;
+}
+audio{
+    float: right;
+    color: #222;
+    opacity: 0.3;
+    height: 50px;
+}
+h2{
+    text-shadow: 0px 0px 10px white;
+}
+table{
+    margin: auto;
+    width: 90%;
+}
+.list-group{
+    width: 80%;
+    margin: auto;
+}
+.list-group a:hover{
+    background-color: #111;
+}
+.list-group a:focus{
+    background-color: #111;
+}
+.list-group a{
+    text-align: center;
+    background-color: #333;
+}
+.list-group a img{
+    width: 75px;
+}
+.panel-primary{
+    margin: auto;
+    margin-bottom: 10px;
+}
+.panel-primary>.panel-heading{
+    background-color: #222;
+    border-right: solid 2px black;
+    border-bottom: none;
+    
+}
+.panel-body{
+    background-color: #333;
+    border-right: solid 2px black;
+}
+.panel{
+    border: none;
+}
+span{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.panel-body p{
+    float: right;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+}
